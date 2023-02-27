@@ -1,0 +1,18 @@
+body {
+    background: #F5F7FB;
+    margin: 0;
+}
+
+#yellowBlob {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-width: 15vw;
+}
+
+#blueBlob {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    max-width: 15vw;
+}

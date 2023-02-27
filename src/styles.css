@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Karla:wght@700&display=swap');
+
+/* intro section */
+
+#introBlock {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro--title {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 31.25px;
+    text-align: center;
+
+    color: #293264;
+}
+
+#intro--description {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #293264;
+    max-width: 50%;
+}
+
+#introBlock > button {
+    margin-top: 30px;
+    width: 193px;
+    height: 52px;
+
+    background: #4D5B9E;
+    border-radius: 15px;
+    border: none;
+
+
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    color: #F5F7FB;
+}
+
+/* single question styling */
+
+.singleQuestion {
+    width: 60vw;
+}
+
+.question--title {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #293264;
+
+    text-align: left;
+    max-width: 60vw;
+    margin-bottom: 10px;
+}
+
+label > input[type=radio] {
+    display: none;
+}
+
+.question--optionsSection {
+    border: none;
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 12px;
+    margin-bottom: 14px;
+
+    text-align: center;
+}
+
+.question--optionsSection > label {
+    /*border: 0.771045px solid #4D5B9E;*/
+    border-radius: 7.71045px;
+    max-width: 200px;
+    min-width: 100px;
+    padding: 5px 10px;
+    height: 35px;
+
+    font-family: 'Inter', sans-serif;
+
+    font-weight: 500;
+    font-size: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #293264;
+}
+
+.singleQuestion > hr {
+    margin-top: 8px;
+    margin-bottom: 0;
+    border-top: 0.794239px solid #DBDEF0;
+    width: 900px;
+}
+
+/* second screen styling */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    height: 100vh;
+}
+
+form span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #293264;
+}
+
+main button {
+    margin: 10px;
+    padding: 15px 16px;
+
+    background: #4D5B9E;
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+
+    color: #F5F7FB;
+}
+
+

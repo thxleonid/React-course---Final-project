@@ -45,7 +45,7 @@ export default function MainSection(props) {
         let check = true
         for (let i = 0; i < 5; i++)
         {
-            if (questions[i].correct_answer != userAnswers[i]) {
+            if (questions[i].correct_answer !== userAnswers[i]) {
                 check = false
             } else {userScore++}
         }

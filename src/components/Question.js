@@ -3,7 +3,7 @@ import React from 'react';
 export default function Question(props) {
     const selectedStyle = {
         background: "#4D5B9E",
-        border: "none"
+        border: "0.771045px solid #4D5B9E"
     }
 
     const notSelectedStyle = {
@@ -13,12 +13,12 @@ export default function Question(props) {
 
     const correctAnswerStyle = {
         background: "#94D7A2",
-        border: "none"
+        border: "0.771045px solid #94D7A2"
     }
 
     const incorrectSelectedStyle = {
-        background: "red",
-        border: "none"
+        background: "#F8BCBC",
+        border: "0.771045px solid #F8BCBC"
     }
 
     function defineStyle(answerOption) {

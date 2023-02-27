@@ -9,13 +9,6 @@ export default function App() {
   const [gameStarted, setGameStarted] = React.useState(false)
   const [questions, setQuestions] = React.useState([])
 
-  function unescapeHtml(safe) {
-    return safe.replace(/&amp;/g, '&')
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
-      .replace(/&quot;/g, '"')
-      .replace(/&#039;/g, "'");
-  }
 /*
   category: 'Entertainment: Film', 
   type: 'multiple', 
